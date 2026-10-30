@@ -5,15 +5,18 @@ interface Props {
 const { title } = Astro.props;
 ---
 <!doctype html>
-<html lang="en">
+<html lang="nl">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   </head>
-  <body class="bg-cream text-navy">
+  <body class="bg-[#F7F3EC] text-[#2A241C] font-sans antialiased" style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">
     <slot />
   </body>
 </html>
