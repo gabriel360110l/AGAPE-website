@@ -1,16 +1,12 @@
 # AGAPE Website
 
-Official website for the AGAPE Bible app.
+Marketing and preview site for the AGAPE Bible app.
 
-Built with Astro + Tailwind CSS.
+Built with TanStack Start. Key pages:
+- `/` Welcome
+- `/about` Who we are
+- `/bible` Sample reader with cross-references
+- `/login` `/signup`
+- `/traditions` `/pray` `/download`
 
-## Development
-
-```bash
-npm install
-npm run dev
-```
-
-## Deploy
-
-Can be deployed to Vercel, Netlify, or GitHub Pages.
+This replaces the earlier Astro scaffold.
