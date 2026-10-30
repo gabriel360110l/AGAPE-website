@@ -1,0 +1,112 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="AGAPE — Bible, Prayer & Tradition">
+  <header class="border-b border-navy/10">
+    <nav class="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <span class="text-2xl">✝</span>
+        <span class="font-serif text-xl font-semibold tracking-wide">AGAPE</span>
+      </div>
+      <div class="hidden md:flex items-center gap-8 text-sm">
+        <a href="#features" class="hover:text-gold transition">Features</a>
+        <a href="#traditions" class="hover:text-gold transition">Traditions</a>
+        <a href="#download" class="hover:text-gold transition">Download</a>
+      </div>
+      <a href="#download" class="bg-navy text-cream px-5 py-2 rounded-full text-sm hover:bg-navy/90 transition">Download</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="max-w-6xl mx-auto px-6 py-20 md:py-28 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <p class="text-gold tracking-widest text-sm mb-4">ORTHODOX & CATHOLIC UNITY IN SCRIPTURE</p>
+        <h1 class="font-serif text-5xl md:text-6xl leading-tight mb-6">AGAPE<br/>Bible App</h1>
+        <p class="text-lg text-navy/80 mb-8 max-w-md">
+          Deepen your faith with the richness of Scripture, the wisdom of the Saints, and the beauty of our shared Tradition.
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <a href="#download" class="bg-navy text-cream px-6 py-3 rounded-full">Explore the Bible</a>
+          <a href="#features" class="border border-navy/30 px-6 py-3 rounded-full">Learn more</a>
+        </div>
+      </div>
+      <div class="relative">
+        <div class="bg-white/60 rounded-3xl p-8 shadow-xl border border-navy/5">
+          <div class="aspect-[3/4] bg-gradient-to-br from-navy/5 to-gold/10 rounded-2xl flex items-center justify-center text-navy/40">
+            Open Bible
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Three Traditions -->
+    <section id="traditions" class="bg-white/50 py-20">
+      <div class="max-w-6xl mx-auto px-6 text-center">
+        <h2 class="font-serif text-4xl mb-3">Three Traditions</h2>
+        <p class="text-gold mb-12">One Faith. One Lord. One Love.</p>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-cream rounded-2xl p-8 border border-navy/10">
+            <h3 class="font-semibold mb-3">Eastern Orthodox</h3>
+            <p class="text-sm text-navy/70">Rooted in the early Church and the teachings of the Apostles and Church Fathers.</p>
+          </div>
+          <div class="bg-cream rounded-2xl p-8 border border-navy/10">
+            <h3 class="font-semibold mb-3">Oriental Orthodox</h3>
+            <p class="text-sm text-navy/70">Faithful to the ancient faith since the time of the Apostles.</p>
+          </div>
+          <div class="bg-cream rounded-2xl p-8 border border-navy/10">
+            <h3 class="font-semibold mb-3">Catholic</h3>
+            <p class="text-sm text-navy/70">Guided by Scripture and Sacred Tradition.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="max-w-6xl mx-auto px-6 py-20">
+      <h2 class="font-serif text-4xl text-center mb-12">Features That Deepen Your Faith</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="p-6 rounded-2xl bg-white/70 border border-navy/10">
+          <h3 class="font-semibold mb-2">Daily Readings</h3>
+          <p class="text-sm text-navy/70">Start your day with curated Scripture readings.</p>
+        </div>
+        <div class="p-6 rounded-2xl bg-white/70 border border-navy/10">
+          <h3 class="font-semibold mb-2">Prayers</h3>
+          <p class="text-sm text-navy/70">Agpeya, Horologion and more.</p>
+        </div>
+        <div class="p-6 rounded-2xl bg-white/70 border border-navy/10">
+          <h3 class="font-semibold mb-2">Saints of the Day</h3>
+          <p class="text-sm text-navy/70">Discover the lives of the saints.</p>
+        </div>
+        <div class="p-6 rounded-2xl bg-white/70 border border-navy/10">
+          <h3 class="font-semibold mb-2">Church Fathers</h3>
+          <p class="text-sm text-navy/70">Commentary from the early Fathers.</p>
+        </div>
+        <div class="p-6 rounded-2xl bg-white/70 border border-navy/10">
+          <h3 class="font-semibold mb-2">Bible Plans</h3>
+          <p class="text-sm text-navy/70">Structured plans to grow deeper.</p>
+        </div>
+        <div class="p-6 rounded-2xl bg-white/70 border border-navy/10">
+          <h3 class="font-semibold mb-2">Quizzes</h3>
+          <p class="text-sm text-navy/70">Test your knowledge after each chapter.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download -->
+    <section id="download" class="bg-navy text-cream py-20">
+      <div class="max-w-4xl mx-auto px-6 text-center">
+        <h2 class="font-serif text-4xl mb-4">Download AGAPE</h2>
+        <p class="mb-8 opacity-90">God’s Word. Anywhere. Anytime.</p>
+        <div class="flex flex-wrap justify-center gap-4">
+          <a href="#" class="bg-white text-navy px-6 py-3 rounded-xl font-medium">App Store</a>
+          <a href="#" class="bg-white text-navy px-6 py-3 rounded-xl font-medium">Google Play</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-navy/10 py-8 text-center text-sm text-navy/60">
+    <p>© {new Date().getFullYear()} AGAPE. One Faith. One Scripture. One Love.</p>
+  </footer>
+</Layout>
