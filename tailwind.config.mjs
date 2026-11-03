@@ -4,9 +4,25 @@ export default {
   theme: {
     extend: {
       colors: {
-        cream: '#FBF7F0',
-        navy: '#1B2A4A',
-        gold: '#C9A227',
+        parchment: '#F7F3EC',
+        paper: '#FCFAF6',
+        ink: '#2A241C',
+        muted: '#6E6456',
+        bordeaux: '#8C2F2F',
+        'bordeaux-soft': '#F4E8E6',
+        gold: '#A07A32',
+        line: '#E4DCCF',
+      },
+      fontFamily: {
+        sans: ['Plus Jakarta Sans', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        serif: ['Lora', 'Georgia', 'serif'],
+      },
+      borderRadius: {
+        card: '1.75rem',
+        phone: '2.75rem',
+      },
+      boxShadow: {
+        soft: '0 24px 48px -28px rgb(42 36 28 / 0.22)',
       },
     },
   },
